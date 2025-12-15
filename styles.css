@@ -1,0 +1,194 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    background-color: #FFFBEA;
+    min-width: 1200px; /* 🔑 DESKTOP FIRST */
+}
+
+/* NAVBAR */
+.topbar {
+    display: flex;
+    align-items: center;
+    padding: 24px 60px;
+}
+
+.logo img {
+    width: 260px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}
+
+/* HERO TITLE */
+.hero-title {
+    background-color: #F2D85C;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hero-title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.3;
+}
+
+/* HERO IMAGE */
+.hero-image img {
+    width: 100%;
+    display: block;
+}
+
+/* FEATURE SECTION */
+.feature {
+    background-color: #F2D85C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+.feature-content {
+    max-width: 500px;
+}
+
+.feature-content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.feature-content ul {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.feature-content li {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.feature-content li::before {
+    content: "✓ ";
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* ICON */
+.feature-icon img {
+    width: 350px;
+}
+
+
+
+/* HVEM ER VI */
+.about {
+    background-color: #FFFBEA; /* samme lyse baggrund */
+    padding: 100px 0;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.about-text {
+    max-width: 800px;   /* GIVER DE PÆNE LINJER */
+    margin: 0 auto;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/* WHY CONNECTED STARTERS – DESKTOP */
+
+.why {
+    background-color: #FFFBEA;
+    padding: 120px 100px;
+}
+
+.why h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.why-quote {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.why-content {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+
+.why-image img {
+    width: 100%;
+    height: 100%;        /* 🔑 matcher boksen */
+    object-fit: cover;  /* 🔑 crop korrekt */
+    display: block;
+}
+
+
+
+
+.why-text {
+    background-color: #F2D85C;
+    padding: 40px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.why-text p {
+    margin-bottom: 16px;
+}
+
+.why-name {
+    font-weight: 600;
+    margin-top: 24px;
+}
